@@ -20,7 +20,9 @@ uint8_t data;
 
 String data_b;
 
-//SMARTCAR
+/*
+	SmartCar(LEFT_MOTOR_1, LEFT_MOTOR_2, LEFT_MOTOR_PWM_PIN, RIGHT_MOTOR_1, RIGHT_MOTOR_2, RIGHT_MOTOR_PWM_PIN)
+*/
 SmartCar smartcar(10, 11, 6, 12, 13, 5);
 
 void setup() {
