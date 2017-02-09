@@ -47,7 +47,6 @@ void loop() {
 		//swSerial.write(buffer[i]);  //Echo message received
 		data_b += (char)buffer[i];    //Store received char on data
 	}
-
 	smartcar.handleCar(data_b);
 
 	data_b = "";
