@@ -1,5 +1,5 @@
 # Arduino_BSmartCar
-Bluetooth interface using 4WD Smart Car library for the Arduino.
+Bluetooth interface using 4WD Smart Car library for the Arduino. Dependency on Arduino_SmartCar.
 
 In the following schematic i used a HC-06 bluetooth:
 
